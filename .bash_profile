@@ -131,3 +131,7 @@ shopt -s dirspell 2> /dev/null
 
 # Turn on recursive globbing (enables ** to recurse all directories)
 shopt -s globstar 2> /dev/null
+
+# NVM
+export NVM_DIR=~/.nvm
+source ~/.nvm/nvm.sh
