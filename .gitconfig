@@ -95,3 +95,6 @@
 	prune = true
 [diff]
 	compactionHeuristic = true
+[user]
+	name = jacquesdeklerk
+	email = jacques.de.klerk@gmail.com
