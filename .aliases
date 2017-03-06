@@ -76,6 +76,7 @@ alias g="git"
 # alias gs="git status"
 alias v="vim"
 alias ungz="gunzip -k"
+alias dev="cd ~/dev"
 
 # File size
 alias fs="stat -f \"%z bytes\""
