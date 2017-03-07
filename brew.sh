@@ -18,13 +18,15 @@ brew install findutils
 brew install gnu-sed --with-default-names
 
 
-# Bash 4
-# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
+# Install Bash 4.
+# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
+# running `chsh`.
 brew install bash
+brew tap homebrew/versions
+brew install bash-completion2
 
-brew install bash-completion
 
-brew install homebrew/completions/brew-cask-completion
+
 
 # generic colouriser  http://kassiopeia.juls.savba.sk/~garabik/software/grc/
 brew install grc
@@ -80,6 +82,7 @@ brew install pidcat   # colored logcat guy
 brew install ncdu # find where your diskspace went
 
 brew install zsh
+brew install zsh-completions
 
 # Remove outdated versions from the cellar
 brew cleanup

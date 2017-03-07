@@ -102,9 +102,9 @@ if  which brew > /dev/null; then
 fi;
 
 # hub completion
-if  which hub > /dev/null; then
-    source "$(brew --prefix)/etc/bash_completion.d/hub.bash_completion.sh";
-fi;
+# if  which hub > /dev/null; then
+#     source "$(brew --prefix)/etc/bash_completion.d/hub.bash_completion.sh";
+# fi;
 
 # Enable tab completion for `g` by marking it as an alias for `git`
 if type __git_complete &> /dev/null; then
