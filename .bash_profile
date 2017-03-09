@@ -135,3 +135,6 @@ shopt -s globstar 2> /dev/null
 # NVM
 export NVM_DIR=~/.nvm
 source ~/.nvm/nvm.sh
+
+# ANDROID
+export ANDROID_HOME=/usr/local/opt/android-sdk
