@@ -138,3 +138,14 @@ source ~/.nvm/nvm.sh
 
 # ANDROID
 export ANDROID_HOME=/usr/local/opt/android-sdk
+
+###-tns-completion-start-###
+if [ -f /Users/jdk/.tnsrc ]; then
+    source /Users/jdk/.tnsrc
+fi
+###-tns-completion-end-###
+eval $(/usr/libexec/path_helper -s)
+
+
+## QT
+export CPPLIBS="$HOME/Qt/libs"

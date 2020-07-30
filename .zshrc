@@ -112,3 +112,10 @@ source ~/.bash_profile
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+###-tns-completion-start-###
+if [ -f /Users/jdk/.tnsrc ]; then 
+    source /Users/jdk/.tnsrc 
+fi
+###-tns-completion-end-###
+eval $(/usr/libexec/path_helper -s)

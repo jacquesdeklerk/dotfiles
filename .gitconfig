@@ -96,5 +96,7 @@
 [diff]
 	compactionHeuristic = true
 [user]
-	name = jacquesdeklerk
+	name = Jacques de Klerk
 	email = jacques.de.klerk@gmail.com
+[http]
+	postBuffer = 157286400

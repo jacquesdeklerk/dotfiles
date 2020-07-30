@@ -73,10 +73,22 @@ alias free_diskspace_report="diskspace_report"
 
 # Shortcuts
 alias g="git"
-# alias gs="git status"
+alias gs="git status"
 alias v="vim"
 alias ungz="gunzip -k"
 alias dev="cd ~/dev"
+alias oi="cd ~/dev/origin-interactive.co.za && nvm use default"
+alias sensepost="cd ~/dev/sensepost && rvm use system"
+alias hyphen="cd ~/dev/hyphen && nvm use v6.14.4"
+alias hyphenpda="cd ~/dev/hyphen-pda && nvm use v6.14.4"
+
+alias drhugo="cd ~/dev/debtrescue/hugo && nvm use lts/*"
+alias drwp="cd ~/dev/debtrescue/wordpress && nvm use lts/*"
+alias drwptheme="cd ~/dev/debtrescue/wordpress-std/wp-content/themes/debtrescue && nvm use lts/*"
+
+alias qt="open /Users/jdk/Qt/Qt\ Creator.app"
+alias external="cd /Volumes/JDK\ External"
+alias wild="cd /Volumes/JDK\ External/wild/dev"
 
 # File size
 alias fs="stat -f \"%z bytes\""
